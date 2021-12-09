@@ -6,7 +6,7 @@ Fill in this outline as the instructor goes through the lesson.
 #1) Get input from the user to the question "What is your favorite color?"
 #and store their answer in a variable called favColor.
 favColor = input("What is your favorite color?")
-
+variable = favColor
 
 #2) Make a variable called question and set it to "What is your name?". Then
 #get input from the user to the question and store their answer in a variable
