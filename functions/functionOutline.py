@@ -6,6 +6,11 @@ Fill in this outline as the instructor goes through the lesson.
 #1) Make a function that has two boolean parameters. If both booleans are
 #true, return true. Else, return false. Then, call the function.
 #Print what the function returns.
+
+'''
+This function indetifies if two colors are Blue.
+Then it returns and prints True or False.
+'''
 def color(colorOne, colorTwo):
     if (colorOne and colorTwo == "Blue"):
         return True
@@ -24,6 +29,11 @@ print(color(x,y))
 #to cups (do this by multiplying gallons by 16). Then return cups. Then,
 #call the function.
 #Print what the function returns.
+
+'''
+This function converts gallons to cups.
+Then it returns and prints the number of cups.
+'''
 def conversion(numOne):
     cups = numOne * 16
     return cups
