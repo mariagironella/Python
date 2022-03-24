@@ -38,11 +38,13 @@ while (a == 1):
 #    the loop. Meanwhile, make the loop run until the variable you created 
 #    equals 20.
 b = 14
-while (b == 20):
+while (b < 20):
     
     b = b + 1
     
     print(b)
+    
+    
     
 #3) Declare a variable set to 55. Make a while loop that prints the variable 
 #   you just created. Then make an if statement that makes the loop break when
