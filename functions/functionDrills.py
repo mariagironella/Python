@@ -24,22 +24,51 @@ START HERE
 #the first parameter minus the second one. Then, return the result. Now call 
 #the function.
 #Print what the function returns.
+'''
+This functions subtracts the second inputed number from the first.
+Then is returns the answer.
+'''
+def subtraction(num1, num2):
+    answer = num1 - num2
+    
+    return answer
 
-
+a = 4
+b = 2
+subtraction(a,b)
+print(subtraction(a,b))
 
 #2) Define a function that has one parameter. Make the function divide the 
 #parameter by 2, multiply it by 77, and then add 10,000. Return the result.
 #Now call the function.
 #Print what the function returns.
-
+'''
+This function divided an integer by 2 then multiplies it by 77 then adds 10000.
+Then is returns and prints the answer.
+'''
+def mathematicalFunction(num1):
+    answer = ((num1 / 2) * 77) + 10000
+    print(answer)
+    return answer
 
 
 #3) Define a function that has two int parameters. Make the function check if 
 #two numbers are equal. If they are equal, return true. If they are not equal, 
 #return false. Now call the function.
 #Print what the function returns.
+'''
 
+'''
+def areTwoNumsEqual(num1, num2):
+    if (num1 == num2):
+        return True
+    else:
+        return False
 
+c = 1
+d = 1
+areTwoNumsEqual(c,d)
+print(areTwoNumsEqual(c,d))
 
 #4) Define a function that has two int parameters. Make the function
 #check which parameter is bigger, and return the bigger parameter. 

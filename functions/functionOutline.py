@@ -9,21 +9,22 @@ Fill in this outline as the instructor goes through the lesson.
 
 '''
 This function indetifies if two colors are Blue.
-Then it returns and prints True or False.
+Then it returns True or False.
 '''
 def color(colorOne, colorTwo):
     if (colorOne and colorTwo == "Blue"):
+
         return True
 
     else:
         return False
 
-    print(color(colorOne, colorTwo))
 
 x = "Blue"
 y = "Red"
 color(x,y)
 print(color(x,y))
+
 
 #2) Make a function that takes one int parameter: gallons. Convert gallons
 #to cups (do this by multiplying gallons by 16). Then return cups. Then,
@@ -32,11 +33,12 @@ print(color(x,y))
 
 '''
 This function converts gallons to cups.
-Then it returns and prints the number of cups.
+Then it returns the number of cups.
 '''
 def conversion(numOne):
     cups = numOne * 16
     return cups
+    
 z = 2
 conversion(z)
 print(conversion(z))
